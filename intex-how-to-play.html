@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="intex-how-to-play.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/logo.png" alt="logo" />
+      <h1 class="orange-h name">Tic</h1>
+      <h1 class="white-h name">Tac</h1>
+      <h1 class="orange-h name">Goo</h1>
+      <h1 class="main-heading white-h starting-main-heading">Tic</h1>
+      <h1 class="main-heading orange-h">Tac</h1>
+      <h1 class="main-heading white-h">Toe</h1>
+    </header>
+
+    <main>
+      <h2 class="how-to-title">How to Play</h2>
+      <div class="container">
+        <ol class="how-to-list">
+          <li>
+            This is a two-player game. One player plays with
+            <span class="x">X</span> and the other plays with
+            <span class="o">O</span>.
+          </li>
+
+          <li>
+            The game always starts with <span class="x">X</span>.
+            <span class="o">O</span> plays second.
+          </li>
+
+          <li>
+            Players take turns clicking on an empty box to place their symbol.
+          </li>
+
+          <li>
+            The first player to make three same symbols in a straight line
+            (horizontal, vertical, or diagonal) wins the game.
+          </li>
+
+          <li>
+            Only the <strong>last 6 moves</strong> stay on the board at any
+            time.
+          </li>
+
+          <li>
+            The <strong>oldest move turns red</strong> to show which block will
+            be removed next.
+          </li>
+
+          <li>
+            When a new move is made, the red (oldest) block is removed
+            automatically from the board.
+          </li>
+
+          <li>
+            You can click the <strong>Reset Game</strong> button anytime to
+            start a new match.
+          </li>
+
+          <li>
+            Feeling confident? Tap <strong>Try Tristrike</strong> to enjoy the
+            bigger 5x5 version!
+          </li>
+        </ol>
+
+        <p class="quote">
+          <span>“Think smart, play bold — every move counts!”</span>
+        </p>
+      </div>
+      <div class="back-btn-container">
+        <button class="back-btn" onclick="window.location.href='intex.html'">
+          Back to Game
+        </button>
+      </div>
+    </main>
+
+    <script src="intex-how-to-play.js"></script>
+  </body>
+</html>
