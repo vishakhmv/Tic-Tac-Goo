@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tristrike-htp.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/logo.png" alt="logo" />
+      <h1 class="orange-h name">Tic</h1>
+      <h1 class="white-h name">Tac</h1>
+      <h1 class="orange-h name">Goo</h1>
+      <h1 class="main-heading white-h starting-main-heading">Tri</h1>
+      <h1 class="main-heading orange-h">Strike</h1>
+    </header>
+
+    <main>
+      <h2 class="how-to-title">How to Play</h2>
+      <div class="container">
+        <ol class="how-to-list">
+          <li>
+            This is a two-player game. One player plays with
+            <span class="x">X</span> and the other plays with
+            <span class="o">O</span>.
+          </li>
+
+          <li>
+            The game always starts with <span class="x">X</span>.
+            <span class="o">O</span> plays second.
+          </li>
+
+          <li>The board is a <strong>5x5 grid</strong> (25 boxes).</li>
+
+          <li>
+            Players take turns clicking on an empty box to place their symbol.
+          </li>
+
+          <li>
+            The first player to make three same symbols in a straight line
+            (horizontal, vertical, or diagonal) wins the game.
+          </li>
+
+          <li>
+            Only the <strong>last 22 moves</strong> stay on the board at any
+            time.
+          </li>
+
+          <li>
+            When there are more than 21 moves, the
+            <strong>oldest move turns red</strong>
+            to show which block will be removed next.
+          </li>
+
+          <li>
+            When a new move is made and the limit is crossed, the red (oldest)
+            block is removed automatically from the board.
+          </li>
+
+          <li>
+            You can click the <strong>Reset Game</strong> button anytime to
+            start a new match.
+          </li>
+        </ol>
+
+        <p class="quote">
+          <span
+            >“Think bigger, strike smarter — every move matters on 5x5!”</span
+          >
+        </p>
+      </div>
+
+      <div class="back-btn-container">
+        <button
+          class="back-btn"
+          onclick="window.location.href='tristrike.html'"
+        >
+          Back to Game
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
