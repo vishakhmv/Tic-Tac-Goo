@@ -55,7 +55,7 @@ header {
 
 main {
   text-align: center;
-  height: auto;
+  min-height: 100vh;
   padding-bottom: 8vh;
   background: radial-gradient(circle at center, #1b2b59, #081131);
 }
