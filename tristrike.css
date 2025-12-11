@@ -50,12 +50,13 @@ header {
 }
 
 .starting-main-heading {
-  margin-left: 20.1%;
+  margin-left: 17.2%;
 }
 
 main {
   text-align: center;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 8vh;
   background: radial-gradient(circle at center, #1b2b59, #081131);
 }
 
