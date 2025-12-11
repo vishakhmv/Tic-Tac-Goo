@@ -60,7 +60,6 @@ boxes.forEach((box) => {
     }
     bq.push(box);
     box.disabled = true;
-    checkWinner();
     if (gameOver) {
       return;
     }
@@ -75,6 +74,7 @@ boxes.forEach((box) => {
       let bqf = bq[0];
       bqf.classList.add("red");
     }
+    checkWinner();
   });
 });
 
