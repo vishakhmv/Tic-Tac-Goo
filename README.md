@@ -4,13 +4,11 @@ Tic Tac Goo is a fully interactive web-based mini game collection featuring two 
 
 Tic Tac Toe (3x3)
 
-TriStrike (5x5)
+Quad Strike (5x5)
 
 The project focuses on game logic, responsive UI design, and rule-based gameplay, built using HTML, CSS, and JavaScript.
 
-
 GAME MODES
-
 
 TIC TAC TOE (3x3)
 
@@ -49,16 +47,15 @@ Reset and navigation controls
 
 This makes the game easy for new users to understand while still being strategically engaging.
 
+QUAD STRIKE MODE (5x5)
 
-TRISTRIKE MODE (5x5)
-
-TriStrike is a more competitive and strategic version of Tic Tac Toe played on a 5x5 grid:
+Quad Strike is a more competitive and strategic version of Tic Tac Toe played on a 5x5 grid:
 
 One player plays as X and the other as O
 
 X starts the game
 
-Players win by forming three identical symbols in a straight line
+Players win by forming four identical symbols in a straight line
 
 Includes audio feedback with a victory sound when a player wins
 
@@ -72,7 +69,7 @@ On the next move, that red-highlighted block is automatically erased
 
 This encourages players to predict, block, and plan ahead
 
-TriStrike How to Play Page explains:
+Quad Strike How to Play Page explains:
 
 Turn order and player roles
 
@@ -83,7 +80,6 @@ The 22-move erase system
 Reset and navigation options
 
 This mode offers a high-strategy competitive experience while remaining easy to understand.
-
 
 TECH STACK AND FEATURES
 
@@ -101,7 +97,6 @@ Reset and New Game controls
 
 Simple navigation between game modes and How-to-Play pages
 
-
 HOW TO RUN LOCALLY
 
 Clone the repository
@@ -112,7 +107,6 @@ Open the project folder.
 Open index.html in any modern web browser.
 
 Start playing.
-
 
 WHAT I LEARNED
 
@@ -127,7 +121,6 @@ Improved skills in responsive UI design and micro-interactions
 Designed clear How-to-Play pages for better user guidance
 
 Strengthened overall understanding of front-end game development using HTML, CSS, and JavaScript
-
 
 AUTHOR
 
