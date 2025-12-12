@@ -1,4 +1,4 @@
-TIC TAC GOO – WEB-BASED TIC TAC TOE AND TRISTRIKE GAME
+TIC TAC GOO – WEB-BASED TIC TAC TOE AND QUAD STRIKE GAME
 
 Tic Tac Goo is a fully interactive web-based mini game collection featuring two game modes:
 
