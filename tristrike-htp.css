@@ -62,11 +62,11 @@ main {
   margin-bottom: 2rem;
   width: 90%;
   background: linear-gradient(145deg, #0d1736, #070e22);
-  border-top: 2px solid #ff8c42;
   margin-top: 4vh;
+  border-top: 2px solid #ff8c42;
   border-bottom: 2px solid #f5f7fa;
-  border-left: 2px solid #ffb77a;
-  border-right: 2px solid #dfe5f2;
+  border-left: 2px solid #ff8c42;
+  border-right: 2px solid #f5f7fa;
   border-radius: 1rem;
   box-shadow: -0.15rem 0 0.5rem rgba(255, 140, 66, 0.7),
     0 0.15rem 0.5rem rgba(245, 247, 250, 0.6);
@@ -117,10 +117,10 @@ main {
   font-weight: bolder;
   padding: 1rem;
   background: linear-gradient(145deg, #0d1736, #070e22);
-  border-top: 2px solid #ff8c42; /* orange top */
-  border-bottom: 2px solid #f5f7fa; /* white bottom */
-  border-left: 2px solid #ff8c42; /* softer orange */
-  border-right: 2px solid #dfe5f2; /* softer white */
+  border-top: 2px solid #ff8c42;
+  border-bottom: 2px solid #f5f7fa;
+  border-left: 2px solid #ff8c42;
+  border-right: 2px solid #f5f7fa;
   color: #fff;
   width: 12rem;
   border-radius: 1rem;

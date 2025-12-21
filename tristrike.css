@@ -80,10 +80,10 @@ main {
   font-size: 1.5vmin;
   font-weight: bolder;
   background: linear-gradient(145deg, #0d1736, #070e22);
-  border-top: 2px solid #ff8c42; /* orange top */
-  border-bottom: 2px solid #f5f7fa; /* white bottom */
-  border-left: 2px solid #ff8c42; /* softer orange */
-  border-right: 2px solid #dfe5f2; /* softer white */
+  border-top: 2px solid #ff8c42;
+  border-bottom: 2px solid #f5f7fa;
+  border-left: 2px solid #ff8c42;
+  border-right: 2px solid #f5f7fa;
   color: #fff;
   border-radius: 1rem;
   box-shadow: -0.15rem 0 0.5rem rgba(255, 140, 66, 0.7),
@@ -162,9 +162,9 @@ main {
   border-top: 2px solid #ff8c42;
   border-bottom: 2px solid #f5f7fa;
   border-left: 2px solid #ff8c42;
-  border-right: 2px solid #dfe5f2;
+  border-right: 2px solid #f5f7fa;
   box-shadow: -0.15rem 0 0.5rem rgba(255, 140, 66, 0.6),
-    /* ORANGE glow on LEFT */ 0 0.25rem 0.5rem rgba(245, 247, 250, 0.5);
+    0 0.25rem 0.5rem rgba(245, 247, 250, 0.5);
 }
 
 .box:hover {
@@ -178,10 +178,10 @@ main {
   font-size: 2vmin;
   font-weight: bolder;
   background: linear-gradient(145deg, #0d1736, #070e22);
-  border-top: 2px solid #ff8c42; /* orange top */
-  border-bottom: 2px solid #f5f7fa; /* white bottom */
-  border-left: 2px solid #ff8c42; /* softer orange */
-  border-right: 2px solid #dfe5f2; /* softer white */
+  border-top: 2px solid #ff8c42;
+  border-bottom: 2px solid #f5f7fa;
+  border-left: 2px solid #ff8c42;
+  border-right: 2px solid #f5f7fa;
   color: #fff;
   border-radius: 1rem;
   box-shadow: -0.15rem 0 0.5rem rgba(255, 140, 66, 0.7),
